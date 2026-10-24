@@ -1,0 +1,19 @@
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="TM.css">
+</head>
+<body>
+    <h1 id="Welcomeh1";"> Welcome to task manager </h1>
+    <h4 id="informationh6">here you can manage your tasks by creating a new one / completing an existing / removing a completed task</h4>
+    <div id="maindiv">
+        <div id="create">
+            <input id="input" type="text" placeholder="new note">
+        <button id="add" onclick="addNote()">add note</button>
+        </div>
+        <div id="notes">
+            <button onclick="loadNotes()">Load Notes</button>
+        </div>
+        <div id="completed"></div>
+    </div>
+    <script src="TM.js"></script>
+</body>
